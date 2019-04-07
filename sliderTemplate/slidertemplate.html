@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="slidertemplate.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Header Area Start -->
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 headersliderdiv">
+                    <!-- Slider area -->
+                    <div class="allpicsforslider "><img src="img/nature.jpg" class="img-responsive myImg" alt=""></div>
+                    <div class="allpicsforslider"><img src="img/nature1.jpg" class="img-responsive myImg" alt=""></div>
+                    <div class="allpicsforslider"><img src="img/nature2.jpg" class="img-responsive myImg" alt=""></div>
+                    <div class="allpicsforslider"><img src="img/nature3.jpg" class="img-responsive myImg" alt=""></div>
+                    <div class=" controlmain d-flex flex-row justify-content-between">
+                        <div class="control"><a href="javascript:Previous()"><i
+                                    class="fas fa-arrow-alt-circle-left"></i></a></div>
+                        <div class="control"><a href="javascript:Pause()"><i class="fas fa-pause-circle"
+                                    onclick="mytoggleFunction(this)" id="pauseicon"></i></a></div>
+                        <div class="control"><a href="javascript:Next()"><i
+                                    class="fas fa-arrow-alt-circle-right"></i></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 spaceclass"></div>
+                </div>
+            </div>
+    </header>
+    <!-- Header Area End -->
+    <!-- Main Area Start -->
+    </main>
+    <!-- Main Area End -->
+    <!-- Footer Area Start -->
+    <footer></footer>
+    <!-- Footer Area End -->
+    <script src="slidertemplate.js"></script>
+</body>
+
+</html>

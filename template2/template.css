@@ -1,0 +1,173 @@
+@media only screen and (max-width: 640px){
+.container{
+    width: 100%;
+}
+.row{
+    width: 100%
+}
+.col{
+    width:32%;
+}
+.mainimgdiv{
+    margin-left: 0px !important;
+}
+.allh1{
+    transform: translateY(150px) ;
+    font-size: 20px;
+}
+.allparaqraph{
+    transform: translate(0%, 180px) !important;
+    letter-spacing: 2px !important;
+    font-size: 8px !important;
+}
+}
+/* For Mobile Responsive Design */
+body{
+    background-color: #cecece;
+}
+.mainimagediv{
+    height: 60vh;
+    background-image: url("img/blurbanner.jpg");
+    background-size: cover;
+    background-position-y: 100%;
+    background-attachment: fixed;    
+}
+.allh1{
+    font-family: "Pacifico", cursive;
+    transform: translateY(150px);
+}
+.borderbottomspan{
+    border: 1.5px solid white;
+    width: 40%;
+    position: absolute;
+    transform: translate(70%, 160px);
+}
+.allparaqraph{
+    transform: translate(22%, 180px);
+    letter-spacing: 5px;
+    font-size: 11px;
+}
+.allparaqraph>a{
+    border-bottom: 1px dotted white;
+    text-decoration: none;
+}
+/* Header Css Area End */
+/* Main  Css Area Start */
+.emtyarea{
+    height: 10vh;
+}
+.maincontent{
+    height: 90vh;
+    width: 100%;
+}
+.mainmagnaportadiv{
+    width: 80%;
+    height: 70vh;    
+}
+.mainmagnaportadiv>i{
+    border:1px solid rgba(0, 0, 0, 0.685);
+    font-size: 35px;
+    width: 80px;
+    height: 80px;
+    border-radius:100%;
+    padding: 18px;
+    line-height: 50px;
+    color: rgba(0, 0, 0, 0.685);
+}
+.allh2{
+    font-size: 28px !important;
+    font-weight: 20;
+    color: rgba(0, 0, 0, 0.753);
+    letter-spacing: 5px;
+}
+.magnaparaqraph{
+    font-size: 14px;
+}
+.learnmorebutton{
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+.learnmorebutton:hover , .footerbtn:hover{
+    border: 1px solid rgb(252, 163, 178) !important;
+    color:rgb(252, 163, 178);
+    background-color: white;
+}
+/* Images Section Css Area Start */
+.divsize{
+    height: 150vh;
+}
+/*  */
+.imagestyle:hover{
+    transform: scale(1.1);
+    z-index: -1;  
+}
+.imagestylediv{
+    overflow: hidden;
+}
+.imagestyle{
+    transition: 0.5s;
+}
+.paraqstyle{
+    font-size: 15px;
+}
+.morebutton{
+    font-size: 11px;
+    letter-spacing: 1px;
+    transform: translateX(180px);
+}
+.allh3{
+    position: absolute;
+    transform: translate(80px,100px);
+    font-size: 20px;
+    letter-spacing: 5px;
+    z-index: 1;
+}
+/* Images Section Css Area End */
+/* Footer Area Start */
+.footersection{
+    height: 100vh;
+}
+.footerdivs{
+    height: 90vh;
+}
+.allfooterdivs{
+    height: 15vh;
+}
+.footerh1{
+    font-size: 24px !important;
+}
+.footerparagraph{
+    font-size: 14px;
+}
+.footerbtn{
+    border:1.5px solid#444444 !important;
+    font-size: 12px !important;
+    letter-spacing: 5px;
+    padding: 12px;
+    transform: translateX(190px);
+}
+.footerspan{
+    border-bottom: 2px solid #444444 !important;
+    width: 90px !important;
+    position: absolute;
+    transform: translateX(220px);
+}
+.allfooterdivs>a{
+    text-decoration: none;
+}
+.allfooterdivs>a>i{
+    color: grey;
+}
+.allfooterdivs>a>i:hover{
+    color:rgb(252, 163, 178);
+}
+.smallparagraph{
+    letter-spacing: 1px;
+}
+.smallparagrapha{
+    text-decoration: dotted !important;  
+    border-bottom: 1px dotted #444444 !important;  
+}
+.smallparagrapha:hover{
+    color:rgb(252, 163, 178) !important;
+}
